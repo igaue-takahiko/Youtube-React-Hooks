@@ -3,7 +3,7 @@ import './App.css';
 import  indigo from '@material-ui/core/colors/indigo'
 import createMuiTheme from '@material-ui/core/styles/createMuiTheme'
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles'
-import { NavBar } from './components'
+import { Main, NavBar } from './components'
 import ApiContentProvider from './context/ApiContextProvider'
 
 const theme = createMuiTheme({
@@ -23,6 +23,7 @@ const App = () => {
         <ApiContentProvider>
             <MuiThemeProvider theme={theme}>
                 <NavBar />
+                <Main />
             </MuiThemeProvider>
         </ApiContentProvider>
     );

@@ -1,2 +1,6 @@
 export { default as Login } from './Login'
+export { default as Main } from './Main'
 export { default as NavBar } from './NavBar'
+export { default as VideoDetail } from './VideoDetail'
+export { default as VideoItem } from './VideoItem'
+export { default as VideoList } from './VideoList'
